@@ -1,0 +1,11 @@
+{
+  "org": "explosion",
+  "repo": "spacy-loggers",
+  "versions": [
+    {
+      "commit": "607fc89366cf25b18441a92fe54ddcd07b8e6c3f",
+      "tag": "",
+      "parsed_at": "2026-10-28T11:36:11.031879+00:00"
+    }
+  ]
+}
