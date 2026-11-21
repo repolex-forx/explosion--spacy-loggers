@@ -1,0 +1,16 @@
+[2026-11-21T23:12:42Z] === ENRICH ITERATION 1 START | repo=explosion/spacy-loggers sha=4c1e0659 ===
+[2026-11-21T23:12:42Z] [iter=1] PHASE START: enrich repo=explosion/spacy-loggers sha=4c1e0659 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/4c1e0659-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/4c1e0659c68b4d2f14df3a248167f0cc3ea72e27.nq.gz
+[2026-11-21T23:12:44Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=78 MB
+[2026-11-21T23:12:45Z] [iter=1] AST store loaded triples=49048 load_secs=1 mem_mb=149 MB
+[2026-11-21T23:12:45Z] [iter=1] Step 2: Finding LSP targets mem_mb=149 MB
+[2026-11-21T23:12:45Z] [iter=1] LSP targets found call_sites=268 imports=61 extends=0 implements=0 secs=0
+[2026-11-21T23:12:45Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=149 MB
+[2026-11-21T23:12:45Z] [iter=1] Position index built positions=3272 nodes_with_types=4263 secs=0 mem_mb=149 MB
+[2026-11-21T23:12:45Z] [iter=1] Step 3: Starting LSP resolution mem_mb=149 MB already_completed_types=[] already_completed_files=0
+[2026-11-21T23:12:45Z] [iter=1] Resolving target type target_type=call_site count=268
+[2026-11-21T23:12:53Z] [iter=1] Target type resolved target_type=call_site resolved=175 errors=0 secs=8 mem_mb=149 MB
+[2026-11-21T23:12:53Z] [iter=1] Resolving target type target_type=import_statement count=61
+[2026-11-21T23:12:54Z] [iter=1] Target type resolved target_type=import_statement resolved=37 errors=0 secs=1 mem_mb=149 MB
+[2026-11-21T23:12:56Z] [iter=1] Step 5: Writing final enrichment file triples=3945
+[2026-11-21T23:12:56Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/4c1e0659c68b4d2f14df3a248167f0cc3ea72e27.nq.gz size_kb=67
+[2026-11-21T23:12:56Z] [iter=1] PHASE END: enrich elapsed_s=14 elapsed_min=0.2 total_triples=3945

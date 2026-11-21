@@ -71,6 +71,66 @@
       ],
       "ast": [
         "aggregate/ast/4c1e0659c68b4d2f14df3a248167f0cc3ea72e27/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/4c1e0659c68b4d2f14df3a248167f0cc3ea72e27.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "spacy",
+          "ecosystem": "PYPI",
+          "version": "3.0.0",
+          "githubOrg": "explosion",
+          "githubRepo": "spaCy",
+          "githubCommit": "a59f3fcf5dab3acf5570483cc314b47cc5833f39",
+          "githubTag": "v3.0.0",
+          "githubUrl": "https://github.com/explosion/spaCy",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "pytest",
+          "ecosystem": "PYPI",
+          "version": "5.0.1",
+          "githubOrg": "pytest-dev",
+          "githubRepo": "pytest",
+          "githubCommit": "bb29f31d2278fc93efba7ef3e123616c13ce8022",
+          "githubTag": "5.0.1",
+          "githubUrl": "https://github.com/pytest-dev/pytest",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "flake8",
+          "ecosystem": "PYPI",
+          "version": "3.8.0",
+          "githubOrg": "pycqa",
+          "githubRepo": "flake8",
+          "githubCommit": "b4d285019210ccdb5d526e64c281db64e5316d6c",
+          "githubTag": "3.8.0",
+          "githubUrl": "https://github.com/pycqa/flake8",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "torch",
+          "ecosystem": "PYPI",
+          "version": "2.15.0",
+          "githubOrg": "pytorch",
+          "githubRepo": "pytorch",
+          "githubCommit": "31a77fc9c0a7c6fff15a1ff58c743f53b1a9d457",
+          "githubTag": "v2.15.0",
+          "githubUrl": "https://github.com/pytorch/pytorch",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.13/site-packages/torch/cuda/memory.py"
+        },
+        {
+          "packageName": "setuptools",
+          "ecosystem": "PYPI",
+          "version": "84.2.1",
+          "githubOrg": "pypa",
+          "githubRepo": "setuptools",
+          "githubCommit": "3895f9829fc0e51882981773a823a658eb1d1636",
+          "githubTag": "v84.2.1",
+          "githubUrl": "https://github.com/pypa/setuptools",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.13/site-packages/setuptools/__init__.py"
+        }
       ]
     }
   ],
