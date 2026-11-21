@@ -1,0 +1,7 @@
+[2026-11-21T23:07:29Z] === AST ITERATION 1 START | repo=explosion/spacy-loggers sha=4c1e0659 ===
+[2026-11-21T23:07:29Z] [iter=1] PHASE START: ast repo=explosion/spacy-loggers sha=4c1e0659
+[2026-11-21T23:07:29Z] [iter=1] Building AST aggregate chunks
+[2026-11-21T23:07:32Z] [iter=1] AST chunks built count=1 triples=49049
+[2026-11-21T23:07:32Z] [iter=1] AST .complete marker written path=/home/runner/work/forx/forx/storage/aggregate/ast/4c1e0659c68b4d2f14df3a248167f0cc3ea72e27/.complete
+[2026-11-21T23:07:32Z] [iter=1] PHASE END: ast elapsed_s=3 elapsed_min=0.1
+[2026-11-21T23:07:32Z] [iter=1] Wrote .next-action.json next_action=enrich path=/home/runner/work/forx/forx/storage/aggregate/.next-action.json
