@@ -3,6 +3,11 @@
   "repo": "spacy-loggers",
   "versions": [
     {
+      "commit": "4c1e0659c68b4d2f14df3a248167f0cc3ea72e27",
+      "tag": "v1.0.5",
+      "parsed_at": "2026-11-21T23:15:42.047054+00:00"
+    },
+    {
       "commit": "607fc89366cf25b18441a92fe54ddcd07b8e6c3f",
       "tag": "",
       "parsed_at": "2026-10-28T11:36:11.031879+00:00"

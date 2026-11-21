@@ -36,9 +36,15 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 .
 ├── aggregate
 │   ├── ast
+│   │   ├── 4c1e0659c68b4d2f14df3a248167f0cc3ea72e27
+│   │   │   └── chunk-001.nq.gz
 │   │   └── 607fc89366cf25b18441a92fe54ddcd07b8e6c3f
 │   │       └── chunk-001.nq.gz
+│   ├── lsp
+│   │   └── 4c1e0659c68b4d2f14df3a248167f0cc3ea72e27.nq.gz
 │   └── repolex
+│       ├── 4c1e0659c68b4d2f14df3a248167f0cc3ea72e27
+│       │   └── chunk-001.nq.gz
 │       └── 607fc89366cf25b18441a92fe54ddcd07b8e6c3f
 │           └── chunk-001.nq.gz
 ├── blob
@@ -51,6 +57,7 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 │   ├── 4350174cf9f66ebf628b484903b6fe34d73ff69b.nq.gz
 │   ├── 453ef23fbd50c6fea885577ab5461c7b0b82de19.nq.gz
 │   ├── 4ad1f09cfa4ee0a90334d9afdab06cfcac769b97.nq.gz
+│   ├── 4c15e0988dd430db5ab32cdd7a1e9ecebdd76f6c.nq.gz
 │   ├── 4d3bb6749c0df63f084e0f266068b01ee7fc2500.nq.gz
 │   ├── 549442debdaaad7d1ef4005b454cf532d23b191d.nq.gz
 │   ├── 54fc2ffccbeed5b7f850a6423bb2d9802008499d.nq.gz
@@ -61,6 +68,7 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 │   ├── 983a7c93292304d4092bffa5869eb21fd835b869.nq.gz
 │   ├── a49b486bf03abdb573112097dbe3696d4c576327.nq.gz
 │   ├── acdd4f6248c92e77caac9505f3d321724179024a.nq.gz
+│   ├── b3f6fc21f3234b98447714c3f15a5aa0eba41d53.nq.gz
 │   ├── d85521251ca663f50eecef686746823943b91a57.nq.gz
 │   ├── e69de29bb2d1d6434b8b29ae775ad8c2e48c5391.nq.gz
 │   ├── e9850e60820e26bbc5b622ef8a2c74c8f98eafea.nq.gz
@@ -69,14 +77,17 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 │   └── branch.nq.gz
 ├── commit
 │   └── commit.nq.gz
+├── dep
+│   └── 4c1e0659c68b4d2f14df3a248167f0cc3ea72e27.nq.gz
 ├── filetree
+│   ├── 4c1e0659c68b4d2f14df3a248167f0cc3ea72e27.nq.gz
 │   └── 607fc89366cf25b18441a92fe54ddcd07b8e6c3f.nq.gz
 ├── pr
 │   └── pr.nq.gz
 └── tag
     └── tag.nq.gz
 
-12 directories, 30 files
+16 directories, 37 files
 ```
 
 | Directory | What it contains |
@@ -97,4 +108,4 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 [explosion/spacy-loggers](https://github.com/explosion/spacy-loggers)
 
 ---
-*Parsed on 2026-10-28 by [repolex](https://repolex.ai)*
+*Parsed on 2026-11-21 by [repolex](https://repolex.ai)*
